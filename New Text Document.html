@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Table with Unordered List</title>
+<style>
+    /* Style for the unordered list */
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    /* Style for list items */
+    li {
+        display: flex; /* Use flexbox for alignment */
+    }
+    /* Style for table headers */
+    li:first-child {
+        font-weight: bold;
+    }
+    /* Style for table cells */
+    li > span {
+        display: inline-block;
+        width: 100px; /* Adjust width as needed */
+        padding: 5px;
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <ul>
+        <!-- Table Header -->
+        <li>
+            <span>Name</span>
+            <span>Age</span>
+            <span>Gender</span>
+        </li>
+        <!-- Table Rows -->
+        <li>
+            <span>John</span>
+            <span>25</span>
+            <span>Male</span>
+        </li>
+        <li>
+            <span>Alice</span>
+            <span>30</span>
+            <span>Female</span>
+        </li>
+        <!-- Additional rows -->
+    </ul>
+</body>
+</html>
